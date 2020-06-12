@@ -5,12 +5,8 @@ module.exports = {
     themeConfig:{
         nav:[
             { text: "主页", link: "/" },
-            { text:"前端", link:"/web/"
-                // items:[
-                //     { text: "react", link:"/web/react/"},
-                //     { text: "vue", link:"/web/vue/"}, 
-                // ]
-            },
+            { text:"前端", link:"/web/"},
+            { text:"其他", link:"/other/markdown.html"},
         ],
         sidebar: {
             "/web/":[
@@ -20,10 +16,17 @@ module.exports = {
                     name:"react",
                     collabsable: false,
                     children:[
-                       [ "react/", "react"],
-                       ["vue/", "vue"]
+                       [ "R1", "react中点击空白隐藏弹出层"],
                     ]
+                },
+                {   
+                    title:"vue",
+                    name:"vue",
                 }
+            ],
+            '/other/':[
+                ['markdown', 'markdown基本语法一览'],
+                ['ss', 'ssss']
             ]
         },
     },
