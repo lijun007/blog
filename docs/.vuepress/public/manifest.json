@@ -1,0 +1,7 @@
+{
+    "name": "blog",
+    "short_name": "blog",
+    "version": "1.0.0",
+    "description": "私人领地，禁止喧哗",
+    "manifest_version": 2
+}
